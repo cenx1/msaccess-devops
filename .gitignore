@@ -1,0 +1,7 @@
+
+# Exclude certificates from repository
+*.pfx
+
+# Exclude binary builds
+/ClickOnce Installer/Launcher/bin/
+/ClickOnce Installer/Launcher/obj/
