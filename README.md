@@ -1,4 +1,9 @@
 # msaccess-devops
+============
+
+# Branch Naming
+- Renamed `master` to `stable` as it is a more correct name; development work will be done in other branches, and the `stable` branch will be updated as those changes are proved out.
+
 This project aims to provide an example of how [msaccess-vcs-integration](https://github.com/cenx1/msaccess-vcs-integration) can be used as part of an CI/CD pipeline
 
 ## Development Notes
@@ -41,5 +46,3 @@ In our environment I used a UNC path for the installer location. In hindsight, I
 
 
 ![Deploy](img/Deploy.jpg)
-
-
